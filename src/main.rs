@@ -1,7 +1,15 @@
 fn main() {
     let nuns: Vec<i32> = vec![1,2,3,4,5,6,7,8,9];
 
+    num_analysis(nuns)
+  
+   
+}
 
+
+
+
+fn num_analysis(nuns: Vec<i32>){
     for nun in nuns {
         match nun {
             x if x <= 5 && x != 5 => {
@@ -19,5 +27,4 @@ fn main() {
         }   
     
     }
-   
 }
